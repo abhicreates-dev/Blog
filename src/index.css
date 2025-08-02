@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #171717;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.space-mono-regular-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.space-mono-bold-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+h1{
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 5rem;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 700;
+  opacity: 0.8;
+  line-height: 0.9;
+}
+
+ul{
+  list-style: none;
+  text-align: center;
+
+}
+
+ul li{
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer;
+}
+
+button{
+  background-color: #267bf1;
+  border: 0;
+  color: #ffffff;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 11px;
+  padding-right: 11px;
+  font-size: 18px;
+  border-radius: 5px;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  &:hover {
+    background-color: #1563c7;
+    transition: background-color 0.3s ease;
+  }
+  
+}
