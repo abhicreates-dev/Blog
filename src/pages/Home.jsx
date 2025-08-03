@@ -2,6 +2,7 @@
 import React from 'react';
 
 import { Link } from "react-router-dom";
+import pi from "/pi1.png";
 
 
 function Home() {
@@ -21,7 +22,7 @@ function Navb(){
   return(
     <nav style={{display: "flex", alignItems:"center", justifyContent:"space-between", marginBottom: "50px", marginTop: "0px", paddingTop: "0px"}}>
       <ul style={{display: "flex"}}>
-        <li><Link to="/" style={{ textDecoration: "none", color: "inherit" }}>Home</Link></li>
+        <li><Link to="/ " style={{ textDecoration: "none", color: "inherit" }}>Home</Link></li>
         <li>Projects</li>
         <li>Blogs</li>
         <li>About</li>
@@ -39,7 +40,7 @@ function Goto(){
     <Link to="/blog1" style={{ textDecoration: "none", color: "inherit" }} >
     <div style={{ display:"flex", marginTop:"10%", flexDirection:"column", width:"400px", textAlign:"start", justifyContent:"center", alignItems:"center"}}>
     <div style={{height:"225px", width:"400px"}}>
-      <img src="/pi1.png" style={{height:"100%", width:"100%"}} alt='goto'/>
+      <img src={pi} style={{height:"100%", width:"100%"}} alt='goto'/>
     </div>
     <div>
     <div style={{marginTop:"20px", fontSize:"1.3rem"}}>

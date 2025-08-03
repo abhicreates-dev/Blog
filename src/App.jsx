@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-        <BrowserRouter>
+        <BrowserRouter basename="/Blog">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/blog1" element={<WSLBlog />} />
